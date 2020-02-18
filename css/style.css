@@ -1,0 +1,27 @@
+p {
+    color: rgb(115, 119, 53);
+    text-align: center;
+
+}
+
+body  {
+    color:rgb(255, 251, 1);
+    text-align:center;
+    background-image: url('https://i.pinimg.com/originals/5e/77/ea/5e77eaf1246721b0724555afebebfeff.gif');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+
