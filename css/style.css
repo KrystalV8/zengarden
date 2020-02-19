@@ -2,11 +2,12 @@ p {
     color: rgb(115, 119, 53);
     text-align: center;
 
+
 }
 
 body  {
-    color:rgb(255, 251, 1);
-    text-align:center;
+    font-family: "Lacquer", Serif ;
+    color: rgb(115, 119, 53);
     background-image: url('https://i.pinimg.com/originals/5e/77/ea/5e77eaf1246721b0724555afebebfeff.gif');
     background-repeat: no-repeat;
     background-size:100% 100%;
@@ -14,6 +15,9 @@ body  {
 
 h1 {
     color: white;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.11);;
+    border: 2px solid white;
 }
 
 h2 {
@@ -24,4 +28,49 @@ h3 {
     color: white;
 }
 
+.intro { 
+    width: 90%;
+    
+    }
+       
+    .summary {
+        width: 800px; 
+        background-color: rgba(255, 255, 255, 0.11);
+        border: 1px solid white;
+        margin-bottom: 15px;
+        }
 
+         .preamble {
+         clear: right; 
+        padding: 0px 10px 0 10px;
+         width: 75%;
+         margin-left: 600px;
+         border: 1px solid white;
+         text-align: end;
+         background-color: rgba(255, 255, 255, 0.11);
+         margin-bottom: 15px;
+         }
+
+.supporting {	
+        padding-left: 10px; 
+        margin-bottom: 40px;
+        margin-bottom: 15px;
+ }
+
+ .sidebar {
+    float: left;
+    margin: 30px;
+    margin-top: 10px;
+    border: 1px solid white;
+    text-align: left;
+    }
+
+.participation {
+    background-color: rgba(255, 255, 255, 0.11);
+    border: 1px solid white;
+}
+
+.benefits {
+    background-color: rgba(255, 255, 255, 0.11);
+    border: 1px solid white;
+}
