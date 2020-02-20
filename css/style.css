@@ -1,14 +1,10 @@
 p {
     color: rgb(143, 150, 54);
-
-
+    padding: 10px;
 }
 
-
-
-
 body  {
-    
+    padding: 10px;
     color: rgb(115, 119, 53);
     background-image: url('https://i.pinimg.com/originals/5e/77/ea/5e77eaf1246721b0724555afebebfeff.gif');
     background-repeat: no-repeat;
@@ -111,26 +107,4 @@ h3 {
     background-color: rgba(255, 255, 255, 0.11);
     }
 
-    @-webkit-keyframes roll {
-        from { -webkit-transform: rotate(0deg) }
-        to { -webkit-transform: rotate(360deg) }
-        }
-        
-        @-moz-keyframes roll {
-        from { -moz-transform: rotate(0deg) }
-        to { -moz-transform: rotate(360deg) }
-        }
-        
-        @keyframes roll {
-        from { transform: rotate(0deg) }
-        to { transform: rotate(360deg) }
-        }
-        
-        body {
-        -moz-animation-name: roll;
-        -moz-animation-duration: 4s;
-        -moz-animation-iteration-count: 1;
-        -webkit-animation-name: roll;
-        -webkit-animation-duration: 4s;
-        -webkit-animation-iteration-count: 1;
-        }
+    
