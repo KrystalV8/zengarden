@@ -43,6 +43,8 @@
 <body id="css-zen-garden">
 <div class="page-wrapper">
 
+	
+
 	<section class="intro" id="zen-intro">
 		<header role="banner">
 			<h1>CSS Zen Garden</h1>
@@ -185,6 +187,39 @@
 <div class="extra1" role="presentation"></div><div class="extra2" role="presentation"></div><div class="extra3" role="presentation"></div>
 <div class="extra4" role="presentation"></div><div class="extra5" role="presentation"></div><div class="extra6" role="presentation"></div>
 
+<script type="text/javascript">
+		var roll_on=0;
+	   function doBarrelRoll()
+	   {
+			  document.body.style.msTransform='rotate(360deg)';
+			  document.body.style.msTransitionDuration='4s';
+			  document.body.style.msTransitionProperty='all';
+			  document.body.style.MozTransform='rotate(360deg)';
+			  document.body.style.MozTransitionDuration='4s';
+			  document.body.style.MozTransitionProperty='all';
+			  document.body.style.WebkitTransform='rotate(360deg)';
+			  document.body.style.WebkitTransitionDuration='4s';
+			  document.body.style.WebkitTransitionProperty='all';
+			  document.body.style.OTransform='rotate(360deg)';
+			  document.body.style.OTransitionDuration='4s';
+			  document.body.style.OTransitionProperty='all';
+			  setTimeout("document.body.removeAttribute('style'); roll_on = 0;",4000);
+	   }
+	   function startRoll()
+	   {
+			  if (!roll_on)
+			  {
+					roll_on=1;
+					doBarrelRoll();
+			  }
+		}
+		</script>
+	   <body>
+			 <p>Click the button for fun!</p> 
+			 <p role="image" aria-label="lil bit crazy emoji">🤪</p>
+			  <input type="button" value="Roll!" onclick="startRoll()">
+	   
+		</body>
 
 </body>
 </html>
